@@ -41,4 +41,24 @@
     
 
 
+    //********Memory Working */
+
+
+    // Stack (Primitive), Heap(Non- Premitive)
+    // Stack gives a copy whereas heap gives a  reference
+    let myChannelName = "Pragatshukla"
+
+    let anothername = myChannelName // stack copy
+    anothername = "Shukla Pragat"
+    console.log(myChannelName);
+    console.log(anothername);
+
+    let user1 = {
+      email: "user@gmail.com",
+      upi:"user@paypl"
+    }
+    let user2= user1//heap reference
+    user2.email="pragat@gmal.com"
+     console.log(user1.email);
+     console.log(user2.email);
 
