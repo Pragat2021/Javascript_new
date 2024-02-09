@@ -33,7 +33,7 @@ let mycreateddate = new Date(2023,0 ,23)//declaration of date
 //*********TIME STAMP************* */
 
 let timestamp = new Date()
-//  console.log(timestamp);
+ console.log(timestamp);
 //  console.log(mycreateddate.getTime());
 //  console.log(Math.floor(Date.now()/1000));
 
