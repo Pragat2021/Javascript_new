@@ -11,10 +11,10 @@
 //         break;
 // }
 
-
 const month = 30
 
-switch (month) {
+switch (month) 
+{
     case 1:
         console.log("January");
         break;
@@ -51,11 +51,10 @@ switch (month) {
     case 12:
         console.log("dec");
         break;
-
     default:
             console.log("Enter a valid month");
         break;
-}
+ }
 
 
 //  now we have done everythng based on strict true and strict false
