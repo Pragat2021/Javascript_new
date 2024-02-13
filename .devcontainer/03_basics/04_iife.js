@@ -28,5 +28,5 @@
     ((food) => {
         console.log(`He Loves eating ${food}`);
     })("Samosa");
-
+ 
 })("Pragat");
