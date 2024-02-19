@@ -73,3 +73,10 @@ console.log(name); // accesing objecr name
 
 
     //  api are accesed from random .api in jason format see full values in jason formatter and can be seen in tree text and other formats
+ 
+
+
+
+
+
+    
