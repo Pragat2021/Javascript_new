@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api Javascript </title>
+</head>
+<body style = "background-color: aquamarine;">
+
+    
+</body>
+<script>
+    const requrl = 'https://api.github.com/users/pragatshukla'
+    // This  is used to make a api
+    const xhr = new XMLHttpRequest();
+    // now continuously track the state
+    xhr.onreadystatechange = function ()
+    {
+        console.log(xhr.readyState)
+        if(xhr.readyState === 4 )
+        {
+            // console.log(this.responseText); //apply this when we talk about current api
+            //  let userData = JSON.parse(this.responseText);  PARSE converts string into json
+            const data = JSON.parse(this.responseText)
+            console.log(typeof data );
+            console.log(data.followers);
+            // console.log(data.img);
+            
+        }
+    }
+    xhr.open('GET',requrl )
+    // now make a call for open
+    // console.log("Here");
+    // console.log(xhr.readyState);
+    xhr.send();
+
+</script>
+</html>
